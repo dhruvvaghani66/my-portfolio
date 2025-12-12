@@ -50,14 +50,14 @@ const BentoCard = ({
       // light styles
       "bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]",
       // dark styles
-      "transform-gpu dark:bg-background border border-gray-500/40 border:8px_solid_rgba(255,215,255,.1) dark:[dark:[dark:[box-shadow:inset_0_-20px_40px_rgba(255,255,255,0.2)]      ",
+      "transformgpu dark:bg-background border border-gray-500/40 border:8px_solid_rgba(255,215,255,.1) dark:[dark:[dark:[box-shadow:inset_0_-20px_40px_rgba(255,255,255,0.2)]      ",
       className
     )}
     {...props}
   >
     <div>{background}</div>
-    <div className="z-10 flex flex-col gap-1 p-6 transition-all duration-300 pointer-events-none transform-gpu group-hover:-translate-y-10">
-      <Icon className="w-12 h-12 transition-all duration-300 ease-in-out origin-left text-white/60 transform-gpu group-hover:scale-75" />
+    <div className="z-10 flex flex-col gap-1 p-6 transition-all duration-300 pointer-events-none transformgpu group-hover:-translate-y-10">
+      <Icon className="w-12 h-12 transition-all duration-300 ease-in-out origin-left text-white/60 transformgpu group-hover:scale-75" />
       <h3 className="text-xl font-semibold text-white leadingnone darktext-neutral-300">
         {name}
       </h3>
@@ -66,7 +66,7 @@ const BentoCard = ({
 
     <div
       className={cn(
-        "pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
+        "pointer-events-none absolute bottom-0 flex w-full translate-y-10 transformgpu flex-row items-center p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
       )}
     >
       <Button variant="ghost" asChild size="sm" className="pointer-events-auto">
@@ -76,7 +76,7 @@ const BentoCard = ({
         </a>
       </Button>
     </div>
-    <div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />
+    <div className="pointer-events-none absolute inset-0 transformgpu transition-all duration-300 group-hover:bg-black/[.03] group-hover:dark:bg-neutral-800/10" />
   </div>
 );
 

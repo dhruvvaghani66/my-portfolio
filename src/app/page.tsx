@@ -72,7 +72,7 @@ export default function Home() {
 
       {/* Features Section */}
       <div className="text-white mb-14 lg:mb-20 bgwhite" id="features">
-        {/* <BentoDemo /> */}
+        <BentoDemo />
       </div>
 
       {/* Lazy-loaded Projects Section */}

@@ -78,3 +78,41 @@ const nextConfig: NextConfig = {
 };
 
 export default bundleAnalyzer(nextConfig);
+
+
+
+
+
+// import withBundleAnalyzer from "@next/bundle-analyzer";
+// import type { NextConfig } from "next";
+
+// const bundleAnalyzer = withBundleAnalyzer({
+//   enabled: process.env.ANALYZE === "true",
+// });
+
+// const nextConfig: NextConfig = {
+//   reactStrictMode: true,
+
+//   // Fix: Next.js 16 removed eslint option support
+//   typescript: {
+//     ignoreBuildErrors: true,
+//   },
+
+//   // ✔ Correct way to disable Turbopack in Next.js 16
+//   // This selects webpack explicitly
+//   compiler: {
+//     emotion: false,
+//   },
+
+//   // ✔ Force webpack instead of Turbopack
+//   webpack(config) {
+//     return config;
+//   },
+
+//   // ✔ Required for selecting workspace root
+//   turbopack: {
+//     root: __dirname,
+//   },
+// };
+
+// export default bundleAnalyzer(nextConfig);
