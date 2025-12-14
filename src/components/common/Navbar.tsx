@@ -10,6 +10,7 @@ import {
   IconMail,
   IconMenu2,
   IconX,
+  IconUserCircle,
 } from "@tabler/icons-react";
 
 export function Navbar() {
@@ -48,6 +49,14 @@ export function Navbar() {
       ),
       href: "/#home",
     },
+    {
+      title: "About",
+      icon: (
+        <IconUserCircle className="w-6 h-6 text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/#about",
+    },
+  
     {
       title: "Features",
       icon: (

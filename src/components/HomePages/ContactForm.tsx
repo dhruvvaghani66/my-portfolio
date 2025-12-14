@@ -75,12 +75,10 @@ export default function ContactSection() {
     // const templateId = "template_2e2v2ao";
     // const publicKey = "MmuMFz9Q7jCP6XL8r";
 
-
     const serviceId = "service_6wb8rhf";
     const templateId = "template_2e2v2ao";
     const publicKey = "MmuMFz9Q7jCP6XL8r";
 
-    
     // Load EmailJS dynamically to avoid SSR issues
     const emailjs = await import("@emailjs/browser");
 
@@ -94,8 +92,8 @@ export default function ContactSection() {
     <section className="relative w-full py-2 overflow-hidden text-white px4 bgblack sm:px6 lg:px8">
       <div className="relative z-10 max-w-3xl mx-auto mt-6">
         {/* <div className="mb-12 text-center"> */}
-          {/* <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in Touch</h2> */}
-          {/* <p className="mt-4 text-gray-400">
+        {/* <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in Touch</h2> */}
+        {/* <p className="mt-4 text-gray-400">
             Have a question or want to work together? Fill out the form below.
           </p> */}
         {/* </div> */}

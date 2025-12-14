@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <footer
-      className="relative w-full px-6 py-5 mt-auto transition-all duration-300 ease-in-out border-t border-gray-800 bgwhite/5 backdrop-blur-xl md:px-10 z-[101] pb20"
+      className="relative w-full px-6 py-3 mt-auto transition-all duration-300 ease-in-out border-t border-gray-800 bgwhite/5 backdrop-blur-xl md:px-10 z-[101] pb20"
       // Increased z-index and padding-bottom
     >
       <div className="container mx-auto max-w-7xl">
@@ -22,7 +22,7 @@ const Footer = () => {
 
           <div className="flex items-center space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/dhruvvaghani66?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="z-20 text-gray-500 transition-colors duration-200 hover:text-gray-100"

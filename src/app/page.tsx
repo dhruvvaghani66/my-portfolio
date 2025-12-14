@@ -34,6 +34,7 @@
 // import ExperienceSection from "@/components/HomePages/Experience";
 import { BentoDemo } from "@/components/HomePages/Features";
 import Hero from "@/components/HomePages/Hero";
+import About from "@/components/HomePages/About";
 import LetsWorkTogether from "@/components/HomePages/LetsWorkTogether";
 // import Projects from "@/components/HomePages/Projects";
 // import Testimonial from "@/components/HomePages/Testimonial";
@@ -68,6 +69,10 @@ export default function Home() {
       {/* Hero Section */}
       <div id="hero">
         <Hero />
+      </div>
+      {/* Contact Section */}
+      <div id="about">
+        <About />
       </div>
 
       {/* Features Section */}
@@ -104,7 +109,8 @@ export default function Home() {
 // import { useState, useEffect } from "react";
 // import { FloatingDock } from "@/components/ui/floating-dock";
 // import {
-//   IconHome,
+// import About from '../components/HomePages/About';
+
 //   IconSettings,
 //   IconCode,
 //   IconBriefcase,

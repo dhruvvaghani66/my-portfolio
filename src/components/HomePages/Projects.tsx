@@ -109,70 +109,86 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "Doctor Appointment Booking ",
+    description:
+      "Role-based doctor appointment system with patient, doctor, and admin panels.",
+
+    image: "/images/doctor.png",
+    technologies: ["React", "Node.js", "MongoDB", "JWT Authentication"],
+    link: "https://doctor-appointment-booking-website-jade.vercel.app",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
+    category: "Healthcare Web App",
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website showcasing projects and skills with a modern design.",
+    image: "/images/portfolio.png",
+    technologies: ["Next.js", "Tailwind CSS", "Three.js"],
+    link: "#",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
+    category: "Portfolio",
+  },
+  {
+    title: "Shoes E-Commerce Website",
+    description:
+      "An online shoes store with product browsing, cart management, and a smooth checkout experience.",
+    image: "/images/shoes.png",
+    technologies: ["React", "Context API", "REST API"],
+    link: "#",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
+    category: "E-Commerce",
+  },
+  {
+    title: "Digital Agency Website",
+    description:
+      "A responsive digital agency website with services, work, and contact sections, featuring smooth navigation and a modern UI.",
+    image: "/images/digital-agency.png",
+    technologies: ["React", "Tailwind CSS"],
+    link: "#",
+    github: "#",
+    category: "Business Website",
+  },
+
+  {
     title: "Slice of Spice",
     description:
       "A seamless online food ordering experience with responsive design and intuitive user interface.",
-    image:
-      "https://imgs.search.brave.com/E2ynvzwcFMmsYoWkLwXE2y6E11K_ten2AtigVf9hEDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQ5NzM2/MTkvc2NyZWVuc2hv/dHMvMTY5MDQ1ODcv/bWVkaWEvZGI1NTBh/ZmJlYjFiNmM3NjM4/ODlmMGRhNDgzYzE5/M2QucG5nP3Jlc2l6/ZT00MDB4MA",
+    image: "/images/slice.png",
     technologies: ["React", "CSS", "Framer Motion"],
     link: "#",
-    github: "#",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
     category: "Web App",
   },
   {
     title: "Weather Coach",
     description:
       "Live weather updates with animations and a sleek UI that adapts to current weather conditions.",
-    image:
-      "https://imgs.search.brave.com/E2ynvzwcFMmsYoWkLwXE2y6E11K_ten2AtigVf9hEDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQ5NzM2/MTkvc2NyZWVuc2hv/dHMvMTY5MDQ1ODcv/bWVkaWEvZGI1NTBh/ZmJlYjFiNmM3NjM4/ODlmMGRhNDgzYzE5/M2QucG5nP3Jlc2l6/ZT00MDB4MA",
+    image: "/images/weather.png",
     technologies: ["React", "Framer Motion", "API Integration"],
     link: "#",
-    github: "#",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
     category: "Web App",
   },
   {
     title: "Hexashop",
     description:
       "A modern shopping experience with add-to-cart and wishlist features for a seamless checkout process.",
-    image:
-      "https://imgs.search.brave.com/E2ynvzwcFMmsYoWkLwXE2y6E11K_ten2AtigVf9hEDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQ5NzM2/MTkvc2NyZWVuc2hv/dHMvMTY5MDQ1ODcv/bWVkaWEvZGI1NTBh/ZmJlYjFiNmM3NjM4/ODlmMGRhNDgzYzE5/M2QucG5nP3Jlc2l6/ZT00MDB4MA",
+    image: "/images/hexashop.png",
     technologies: ["React", "Bootstrap", "Redux"],
     link: "#",
-    github: "#",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
     category: "E-commerce",
   },
   {
     title: "Admin Dashboard",
     description:
       "A feature-rich dashboard with API data visualization and comprehensive analytics tools.",
-    image:
-      "https://imgs.search.brave.com/E2ynvzwcFMmsYoWkLwXE2y6E11K_ten2AtigVf9hEDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQ5NzM2/MTkvc2NyZWVuc2hv/dHMvMTY5MDQ1ODcv/bWVkaWEvZGI1NTBh/ZmJlYjFiNmM3NjM4/ODlmMGRhNDgzYzE5/M2QucG5nP3Jlc2l6/ZT00MDB4MA",
+    image: "/images/admin-dashboard.png",
     technologies: ["React", "Charts.js", "REST API"],
     link: "#",
-    github: "#",
+    github: "https://github.com/dhruvvaghani66?tab=repositories",
     category: "Dashboard",
-  },
-  {
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website showcasing projects and skills with a modern design.",
-    image:
-      "https://imgs.search.brave.com/E2ynvzwcFMmsYoWkLwXE2y6E11K_ten2AtigVf9hEDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQ5NzM2/MTkvc2NyZWVuc2hv/dHMvMTY5MDQ1ODcv/bWVkaWEvZGI1NTBh/ZmJlYjFiNmM3NjM4/ODlmMGRhNDgzYzE5/M2QucG5nP3Jlc2l6/ZT00MDB4MA",
-    technologies: ["Next.js", "Tailwind CSS", "Three.js"],
-    link: "#",
-    github: "#",
-    category: "Portfolio",
-  },
-  {
-    title: "Task Manager",
-    description:
-      "A productivity app for managing tasks with drag-and-drop functionality and progress tracking.",
-    image:
-      "https://imgs.search.brave.com/E2ynvzwcFMmsYoWkLwXE2y6E11K_ten2AtigVf9hEDw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQ5NzM2/MTkvc2NyZWVuc2hv/dHMvMTY5MDQ1ODcv/bWVkaWEvZGI1NTBh/ZmJlYjFiNmM3NjM4/ODlmMGRhNDgzYzE5/M2QucG5nP3Jlc2l6/ZT00MDB4MA",
-    technologies: ["React", "Redux", "Firebase"],
-    link: "#",
-    github: "#",
-    category: "Productivity",
   },
 ];
 
@@ -220,7 +236,6 @@ const ProjectCard = ({
 
   return (
     <motion.div
-
       ref={ref}
       custom={index}
       initial="hidden"
@@ -256,11 +271,11 @@ const ProjectCard = ({
       </motion.div>
 
       {/* Image with overlay */}
-      <motion.div className="relative w-full oveflow-hidden h-60">
+      <motion.div className="relative w-full h-64 overflow-hidden">
         <motion.img
           src={image}
           alt={title}
-          className="object-cover w-full h-full opacity-95 "
+          className="object-contain w-full h-full opacity-95"
           animate={{
             scale: isHovered ? 1.1 : 1,
           }}
@@ -269,9 +284,6 @@ const ProjectCard = ({
             ease: [0.25, 0.1, 0.25, 1],
           }}
         />
-        {/* <div className="absolute inset0 opacity-10 bg-gradient-to-t from-black/80 via-black/40 to-black/10" /> */}
-
-        {/* Animated overlay on hover */}
         <motion.div
           className="absolute inset-0 bg-primary/20"
           initial={{ opacity: 0 }}
@@ -445,7 +457,6 @@ const Projects = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            
           >
             <h2 className="text-5xl font-bold mb4 textwhite">
               <span className="text-white bg-clip-text bg-gradient-to-r from-primary to-primary/70">
