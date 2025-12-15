@@ -292,7 +292,7 @@ export default function Hero() {
         >
           {/* Primary */}
           <motion.a
-            href="/Dhruv_Vaghani_Resume.pdf"
+            href="/dhruv_Vaghani_resume.pdf"
             download
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.97 }}
